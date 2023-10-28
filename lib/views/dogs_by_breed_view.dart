@@ -1,4 +1,5 @@
 import 'package:dogs/data/dogs_data_controller.dart';
+import 'package:dogs/data/dogs_state.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

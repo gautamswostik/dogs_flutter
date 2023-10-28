@@ -1,9 +1,8 @@
 import 'package:dio/dio.dart';
+import 'package:dogs/data/dogs_state.dart';
 import 'package:dogs/models/dogs_list.dart';
 import 'package:dogs/models/random_dog.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-
-enum DogsState { loading, loaded, error }
 
 final randomDogsProvider = StateNotifierProvider.autoDispose<DogsDataController,
     (DogsState, List<String>)>((ref) => DogsDataController());

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:dogs/data/dogs_data_controller.dart';
+import 'package:dogs/data/dogs_state.dart';
 import 'package:dogs/models/dogs_breed.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
